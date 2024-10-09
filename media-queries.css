@@ -1,0 +1,774 @@
+
+@media (max-width: 1500px) {
+    /*HEADER*/
+
+    .header-top .header-top-right img {
+        height: 480px;
+    }
+
+    .header-top .header-top-left .header-txt .heading-text {
+        transform: scale(0.78);
+        transform-origin: left;
+    }
+
+    .images-slide img {
+        height: 220px;
+    }
+
+    /*VENUE SELECTION BOX*/
+    .grid-container .right {
+        transform: scale(0.8);
+        transition: all 0.5s ease;
+    }
+
+    .grid-container .left h2 {
+        transform: scale(0.9);
+        transition: all 0.5s ease;
+    }
+
+    .grid-container .left p {
+        font-size: 1.4rem;
+        min-width: 100%;
+ 
+    }
+
+    .grid-container .right .selection-search-btn {
+        padding: 2rem;
+        font-size: 1.6rem;
+        transition: all 0.5s ease;
+    }
+
+    
+
+
+}
+
+
+@media (max-width: 1400px) {
+    /*TOP VENUES*/
+    .top-venues-grid-container {
+        max-width: 70%;
+    }
+
+
+    .card {
+        max-width: 260px;
+    }
+
+    .card-description {
+        transform: scale(0.8);
+        transform-origin: center;
+        padding:  0 0.4rem;
+    }
+
+    .top-venues-grid-container .see-more-card-inner {
+        padding: 0;
+    }
+
+    .top-venues-grid-container .inner-card-content {
+        padding: 1rem;
+    }
+
+    #list-tab-content {
+        max-width: 60%;
+    }
+}
+
+
+@media (max-width: 1260px) {
+
+    
+    /*HEADER*/
+    .header-top {
+        padding: 20vh 8% 10vh;
+    }
+
+    .header-top .header-top-right img {
+        height: 380px;
+        margin-bottom: 4rem;
+    }
+
+    .header-top .header-top-left .header-txt .heading-text {
+        transform: scale(0.74);
+        transform-origin: left;
+    }
+
+    .header-top .header-top-left .header-txt p {
+        transform: scale(0.94);
+        transform-origin: left;
+    }
+
+    .images-slide img {
+        height: 180px;
+    }
+
+    /*INTRO TEXT*/
+    .intro-text {
+        transform: scale(0.86);
+        transition: transform 0.5s ease;
+    }
+
+    .line-vertical {
+        height: 8vh;
+        margin: 3rem auto;
+        transition: height 0.5s ease;
+    }
+
+     /*VENUE SELECTION BOX*/
+
+
+    .grid-container .right {
+        transform: scale(0.7);
+        transform-origin: right;
+        margin-left: 0;
+    }
+
+
+
+    .grid-container .left .text-md:nth-child(3) {
+        margin-top: 3rem;
+    } 
+    
+    .grid-container .left .text-md:last-child {
+        margin-top: 3rem;
+    } 
+
+    .grid-container .right .selection-search-btn {
+        font-size: 1.4rem;
+    }
+
+    .grid-container .left h2 {
+        transform: scale(0.8);
+        transform-origin: left;
+    }
+
+  
+
+
+}
+
+
+@media (max-width: 1100px) {
+    /*HEADER*/
+    .header-top {
+        padding: 15vh 8% 10vh;
+    }
+
+    .header-top .header-top-right img {
+        margin-bottom: 6rem;
+    }
+
+    .header-top .header-top-left .header-txt .heading-text {
+        transform: scale(0.64);
+        transform-origin: left;
+    }
+
+    .header-top .header-top-left .header-txt p {
+        transform: scale(0.9);
+        transform-origin: left;
+    }
+
+    .top-venues-container .top-venues-header .fa-arrow-right {
+        transform: rotate(90deg);
+        transition: transform 1s ease;
+    }
+
+  
+
+    /*VENUE SELECTION BOX*/
+
+    .container {
+        height: auto;
+     }
+    .grid-container {
+        grid-template-columns: 1fr;
+      }
+
+      .grid-container .left {
+        max-width: 100%;
+        text-align: center;
+        transform: scale(1);
+        margin: 0 5rem ;
+    }
+
+    .grid-container p {
+        margin-left: 0;
+    }
+
+    .grid-container .right {
+        transform: scale(1);
+        transform-origin: right;
+    }
+
+    .grid-container .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-container .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .grid-container .right img {
+        height: 300px;
+        width: 60%;
+        object-fit: cover;
+    }
+
+    .grid-container .right .selection-search-btn {
+        width: 60%;
+    }
+ 
+    .grid-container .right .selection-search-btn {
+        padding: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .container {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .grid-container .left h2 {
+        transform: scale(1);
+        font-size: 2.2rem;
+    }
+
+    /*TOP VENUES*/
+    #list-tab-content {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .top-venues-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 80%;
+        gap: 3%;
+    }
+    
+    .card {
+        max-width: 100%;
+  
+    }
+
+    .card-description {
+        transform: scale(0.95);
+        transform-origin: center;
+    }
+
+    .top-venues-grid-container .see-more-card-inner {
+        padding: 1.8rem;
+    }
+
+    .top-venues-grid-container .inner-card-content {
+        padding: 1.8rem;
+    }
+
+    .top-venues-grid-container .see-more-card-inner {
+        padding: 0;
+    }
+
+    .top-venues-grid-container .inner-card-content {
+        padding: 1rem;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    /*HEADER*/
+    .header-top .header-top-right img {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    .header-top .header-top-left .header-txt .heading-text {
+        transform: scale(0.84);
+        transform-origin: left;
+    }
+
+    .header-top .header-top-left .header-txt p {
+        transform: scale(1);
+        transform-origin: left;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    /*HEADER*/
+    .header-top {
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .header-top .header-top-left .header-txt .heading-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+
+
+
+     .header-top .header-top-left .header-txt .heading-text {
+        text-align: center;
+        font-size: 3.4rem;
+        transform: scale(1); /*stretch container back to normal width so can center text*/
+    }
+
+    .header-top .header-top-left .header-txt p {
+        transform: scale(1);
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .images-slide img {
+        height: 140px;
+    }
+
+
+
+    .header-top .header-top-left .header-btns ul {
+        justify-content: center;
+    }
+
+    /*Mobile Menu*/
+    .hamburger {
+        display: block;
+    }
+
+
+    .nav-container ul:nth-child(2) {
+        display: none; /*hides first navbar-nav (desktop menu)*/
+    }
+
+    /*INTRO TEXT*/
+    .intro-text {
+        transform: scale(0.7);
+        transition: transform 0.5s ease;
+    }
+
+    .line-vertical {
+        height: 6vh;
+        margin: 2rem auto;
+        transition: height 0.5s ease;
+    }
+
+    /*VENUE SELECTION BOX*/
+ 
+    .grid-container .right img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .grid-container .right .selection-search-btn {
+        width: 100%;
+    }
+
+    /*FAQ Mobile Menu*/
+    .faq-header-mobile {
+        display: block;
+    }
+
+    .faq-header > :nth-child(-n+3) {
+        display: none;
+    }
+
+    .faq-header .line3 {
+        display: none;
+    }
+    
+    .faq-header-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .faq-header-mobile h3 {
+        text-align: center;
+    }
+
+    .faq-header {
+        flex-direction: column;
+    }
+
+    #list-tab-content {
+        grid-template-columns: 1fr;
+        max-width: 70%;
+    }
+
+    /*All Venues Buttons*/
+    .venues-buttons {
+        flex-direction: column;
+    }
+
+    .venues-buttons .left {
+        margin-bottom: 0.6rem;
+    }
+
+
+
+    .modal {
+        height: 90%;
+        width: 100%;
+        overflow: scroll;
+    }
+
+
+    .basic-filters-body-content {
+        flex-direction: column;
+    }
+
+    .basic-filters-body-content div {
+        flex-direction: row;
+    }
+
+    #cost-tab-content {
+        max-width: 95%;
+    }
+
+    .calculator-form {
+        width: auto;
+    }
+
+
+
+}
+
+
+@media (max-width: 650px) {
+
+
+
+    /*HEADER*/
+    .header-top {
+        padding: 12vh 8% 10vh;
+    }
+
+    .header-top .header-top-left .header-txt .heading-text {
+        font-size: 2.8rem;
+    }
+
+    .images-slide  {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .images-slide img {
+        height: 180px;
+    }
+
+    .grid-container .left {
+        margin: 0 0.2rem ;
+        transition: margin 0.5s ease;
+        margin-bottom: 2rem;
+    }
+
+    .grid-container .left p {
+        margin-top: 1.2rem;
+    }
+
+    /*Mobile Menu*/
+    .mobile-menu {
+        width: 100%;
+    }
+
+     /*Footer Accordian*/
+     .footer-bottom .footer-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom .footer-group {
+        margin-left: 10px;
+    }
+
+    .footer-bottom .footer-group-header {
+        position: relative;
+    }
+
+    .footer-bottom .footer-group-header {
+        margin-right: 10px;
+        width: 95%;
+    }
+
+    .footer-bottom .footer-group i {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .footer-bottom .footer-group-body {
+        display: none;
+        margin-left: 10px;
+    }
+
+    .footer-bottom .footer-group-body.open {
+        display: block;
+    }
+
+    .footer-bottom .footer-group {
+        border-bottom: 1px solid var(--cream);
+        padding-bottom: 0.8rem;
+    }
+
+    /*TOP VENUES*/
+    .top-venues-grid-container {
+        display:  flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+
+    #list-tab-content {
+        max-width: 100%;
+    }
+
+    .card {
+        max-width: 80%;
+        margin-bottom: 3%;
+        justify-self: center;
+    }
+
+    .top-venues-grid-container .see-more-card {
+       width: 100%;
+    }
+
+    .top-venues-grid-container .see-more-card-inner {
+        border: 0;
+    }
+
+    .calculator-form-body {
+        flex-direction: column;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 450px) {
+
+    .filter-modal {
+        width: 100%;
+        height: 85vh;
+        overflow-y: scroll;
+    }
+
+    .filter-modal .filter-bottom {
+        flex-direction: column;
+    }
+
+    /*Header*/ 
+    .header .header-top-left .header-txt .heading-text  {
+        font-size: 2rem;
+    }
+
+    .header .header-top-left .header-txt .text-md {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .header .header-top .header-top-left .header-btns ul li a {
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+
+    /*Mobile Menu*/
+    .mobile-menu ul li a{
+        font-size: 1.2rem;
+    }
+
+    .mobile-menu ul {
+        max-width: 100%;
+        max-height: 40%;
+        margin: 0 auto;
+        text-align: center; 
+        right: 0;
+        left: 0;
+        border: none;
+    }
+
+    /*Info Text*/
+
+    .intro-text{
+        transform: scale(1);
+        font-size: 1.2rem;
+        margin: 0 1rem;
+    }
+
+    /*Venue Selection Box*/
+    .container {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+
+    .grid-container .left {
+        text-align: left;
+        margin: 0 ;
+    }
+
+    .grid-container .left h2 {
+        font-size: 1.8rem;
+    }
+
+    .grid-container .left p {
+        font-size: 1.2rem;
+    }
+
+    .grid-container .right img {
+        height:200px;
+        margin-top: 1rem;
+    }
+
+    .grid-container .right .selection-search-btn {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    /*FAQ Mobile Menu*/
+    .faq-header-mobile .text-md {
+        font-size: 1.5rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .faq-header ul li {
+        font-size: 1rem;
+    }
+
+    .faq-group .faq-group-header h4 {
+        font-size: 1rem;
+        width: 88%;
+    }
+
+    .faq-group .faq-group-header i {
+        font-size: 1.1rem;
+    }
+
+    /*TOP VENUES*/
+    .card-description {
+        transform: scale(0.8);
+    }
+
+    .card-location-container h4,
+    .card-location-container i {
+        font-size: 0.85rem;
+    }
+
+    /*Venues Page Header*/
+    .venues-header .venues-header-text {
+        text-align: center;
+        margin: 0 2rem;
+    }
+
+    .venues-buttons .right .right-btn-container ul {
+        flex-direction: column;
+    }
+
+    .basic-filters-header {
+        width: 40%;
+    }
+
+    .basic-filters-body-content {
+        flex-direction: column;
+    }
+    .basic-filters-body-content div {
+        flex-direction: column;
+    }
+
+    .calculator-form, .calc-result-container, .calc-weather-container {
+        width: 100%;
+    }
+
+    .calc-weather-inner, .calc-result-container-inner {
+        flex-direction: column;
+    }
+
+    .calc-result-container .calculator-venue-image {
+        width: 80%;
+        margin-bottom: 0.6rem;
+    }
+
+    .calc-result-container .calculator-venue-image img {
+        border: 1.2px solid #331300;
+    }
+
+}
+
+
+@media (max-height: 700px) {
+    .filter-modal {
+        height: 90vh;
+        overflow-y: scroll;
+    }
+
+    .modal {
+        height: 90%;
+        overflow: scroll;
+    }
+
+}
+
+/*Landscape Mode Small Screens*/
+@media (max-height: 550px) {
+    /*Mobile Menu*/
+    .mobile-menu {
+        width: 100%;
+        height: 30%;
+        top: 70px;
+        border: none;
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .mobile-menu h4 {
+        display: none;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border: none;
+        right: 0;
+        left: 0;
+        top: 20%;
+    }
+
+    .mobile-menu ul li a {
+        font-size: 1rem;
+    }
+
+    .mobile-menu .border {
+        display: none;
+    }
+
+    .mobile-menu.navbar-nav li:not(:last-child) a:hover:after {
+        transform: scaleX(1);
+    }
+    
+    .mobile-menu.navbar-nav li:not(:last-child) a.active:after {
+        transform: scaleX(1);
+    }
+    
+    .mobile-menu.navbar-nav li:not(:last-child) a.active {
+        transform: scaleX(1);
+    }
+}
+
+
+
+
+
+
+
+
